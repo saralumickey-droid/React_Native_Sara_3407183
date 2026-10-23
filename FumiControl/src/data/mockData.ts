@@ -1,0 +1,88 @@
+import type { Service } from '../types';
+
+export const mockData: Service[] = [
+  {
+    id: '1',
+    name: 'Fumigación contra cucarachas',
+    category: 'Insectos rastreros',
+    price: 120000,
+    available: true,
+  },
+  {
+    id: '2',
+    name: 'Control de roedores',
+    category: 'Roedores',
+    price: 150000,
+    available: true,
+  },
+  {
+    id: '3',
+    name: 'Fumigación contra mosquitos',
+    category: 'Insectos voladores',
+    price: 100000,
+    available: true,
+  },
+  {
+    id: '4',
+    name: 'Control de hormigas',
+    category: 'Insectos rastreros',
+    price: 90000,
+    available: false,
+  },
+  {
+    id: '5',
+    name: 'Control de termitas',
+    category: 'Madera y estructuras',
+    price: 250000,
+    available: true,
+  },
+  {
+    id: '6',
+    name: 'Fumigación contra pulgas',
+    category: 'Parásitos',
+    price: 110000,
+    available: true,
+  },
+  {
+    id: '7',
+    name: 'Control de chinches',
+    category: 'Insectos rastreros',
+    price: 180000,
+    available: false,
+  },
+  {
+    id: '8',
+    name: 'Desinfección de espacios',
+    category: 'Desinfección',
+    price: 140000,
+    available: true,
+  },
+  {
+    id: '9',
+    name: 'Control de avispas',
+    category: 'Insectos voladores',
+    price: 130000,
+    available: true,
+  },
+  {
+    id: '10',
+    name: 'Fumigación de jardines',
+    category: 'Control de plagas exteriores',
+    price: 160000,
+    available: true,
+  },
+  {
+    id: '11',
+    name: 'Control de polillas',
+    category: 'Insectos voladores',
+    price: 95000,
+    available: false,
+  },
+  {
+    id: '12',
+    name: 'Tratamiento preventivo',
+    category: 'Prevención de plagas',
+    price: 80000,
+    available: true,
+  },
+];

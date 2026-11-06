@@ -1,12 +1,16 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+
 import RootNavigator from './src/navigation/RootNavigator';
 
-export default function App() {
+export default function App(): React.JSX.Element {
   return (
-    <NavigationContainer>
-      <StatusBar style="dark" />
-      <RootNavigator />
-    </NavigationContainer>
+    <SafeAreaProvider>
+      <NavigationContainer>
+        <StatusBar style="dark" />
+        <RootNavigator />
+      </NavigationContainer>
+    </SafeAreaProvider>
   );
 }

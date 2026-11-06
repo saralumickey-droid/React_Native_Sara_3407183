@@ -1,0 +1,58 @@
+import { FumigationService } from '../types';
+
+export const fumigationServices: FumigationService[] = [
+  {
+    id: '1',
+    name: 'Fumigación residencial',
+    category: 'Hogar',
+    description: 'Servicio de control de plagas para viviendas, apartamentos y espacios familiares.',
+    duration: '2 horas',
+    coverage: 'Hasta 120 m²',
+    price: 150000,
+  },
+  {
+    id: '2',
+    name: 'Control de roedores',
+    category: 'Desratización',
+    description: 'Servicio especializado para prevenir y controlar la presencia de roedores.',
+    duration: '1 hora y 30 minutos',
+    coverage: 'Hasta 100 m²',
+    price: 120000,
+  },
+  {
+    id: '3',
+    name: 'Control de cucarachas',
+    category: 'Desinsectación',
+    description: 'Tratamiento para el control de cucarachas en cocinas, baños y otras áreas.',
+    duration: '1 hora',
+    coverage: 'Hasta 80 m²',
+    price: 100000,
+  },
+  {
+    id: '4',
+    name: 'Control de termitas',
+    category: 'Tratamiento de maderas',
+    description: 'Servicio de inspección y tratamiento preventivo o correctivo contra termitas.',
+    duration: '3 horas',
+    coverage: 'Según inspección',
+    price: 250000,
+  },
+  {
+    id: '5',
+    name: 'Fumigación comercial',
+    category: 'Empresas',
+    description: 'Control de plagas para oficinas, establecimientos comerciales y locales.',
+    duration: '2 horas y 30 minutos',
+    coverage: 'Hasta 200 m²',
+    price: 200000,
+  },
+  {
+    id: '6',
+    name: 'Control de mosquitos',
+    category: 'Áreas exteriores',
+    description: 'Tratamiento para reducir la presencia de mosquitos en jardines y zonas abiertas.',
+    duration: '1 hora y 30 minutos',
+    coverage: 'Según inspección',
+    price: 130000,
+  },
+];
